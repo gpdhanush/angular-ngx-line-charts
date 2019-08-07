@@ -11,11 +11,11 @@ export class AppComponent  {
   public showXAxis = true;
   public showYAxis = true;
   public gradient = false;
-  public showLegend = false;
+  public showLegend = true;
   public showXAxisLabel = true;
-  public xAxisLabel: "meni";
+  public xAxisLabel: "Years";
   public showYAxisLabel = true;
-  public yAxisLabel: "meni";
+  public yAxisLabel: "Salary";
   public graphDataChart: any[];
   public colorScheme = {
     domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
